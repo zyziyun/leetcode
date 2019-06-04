@@ -2,6 +2,7 @@
  * @param {number} n
  * @return {number} 
  * 未使用二分查找
+ * https://leetcode.com/problems/arranging-coins/
  */
 var arrangeCoins = function(n) {
     let l = 1;

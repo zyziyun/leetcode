@@ -1,6 +1,7 @@
 /**
  * @param {string} S
  * @return {string}
+ * https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
  */
 var removeDuplicates = function(S) {
     let arr = S.split('');
