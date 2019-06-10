@@ -2,7 +2,7 @@
  * @Author: ziyun
  * @Date: 2019-06-05 09:02:34
  * @Last Modified By: ziyun
- * @Last Modified Time: 2019-06-05 09:03:01
+ * @Last Modified Time: 2019-06-08 02:24:28
  */
 function TreeNode(val) {
     this.val = val;
@@ -23,4 +23,4 @@ function createTree(arr) {
     return root;
 }
 
-createTree([3, 9, 20, null, null, 15, 7]);
+var tree = createTree([0, null, -1]);
